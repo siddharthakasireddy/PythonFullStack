@@ -8,8 +8,6 @@ A set of instructions written to perform a specific task is called a Program.
 Real-Time Examples
 ● ATM Withdrawal
 ● Online Shopping
-● Food Delivery Apps
-● Instagram Feed Loading
 ● YouTube Video Recommendations
 ● Uber Ride Booking
 All these applications work because programmers write instructions that computers can
@@ -22,13 +20,7 @@ Examples:
 ● Python
 ● Java
 ● C
-● C++
-● JavaScript
-● C#
-● Go
-● Rust
 
-None
 3. Types of Programming Paradigms
 Programming languages generally follow different programming styles called paradigms.
 The two most common paradigms are:
@@ -209,14 +201,6 @@ Name Origin:
 The name "Python" was inspired by the comedy show:
 Monty Python's Flying Circus
 Python was not named after the snake.
-
-Python Version Timeline
-Version Year
-Python 1.0 1994
-Python 2.0 2000
-Python 3.0 2008
-Python 3.x Current Series
-Python 3 is currently the standard version.
 
 9. Applications of Python
 Web Development
