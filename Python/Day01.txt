@@ -19,7 +19,6 @@ software applications.
 Examples:
 ● Python
 ● Java
-● C
 
 3. Types of Programming Paradigms
 Programming languages generally follow different programming styles called paradigms.
