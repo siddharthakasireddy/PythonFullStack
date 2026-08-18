@@ -22,14 +22,5 @@ n = int(input("Enter number of terms: "))
 
 for i in range(n):
     print(fibonacci(i), end=" ")
-    
 
-    
-def sum_natural(n):
-    if n == 1:
-        return 1
-    else:
-        return n + sum_natural(n - 1)
-
-n = int(input("Enter n value: "))
 
