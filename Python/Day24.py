@@ -1,35 +1,68 @@
-prem = 10000
+class Student:
+    collegename = "Codegnan"
+    def __init__(self):
+        self.name = "Siddhu"
+        self.age = 22
+        self.marks = 90
+    #Instance method
+    def Talk(self):
+        print("My name is:",self.name)
+        print("My age is:",self.age)
+        print("My marks are:",self.marks)
+s1=Student()
+s1.Talk()
+print()
+s2=Student()
+s2.Talk()
 
-age = int(input())
-score = int(input())
-v_type = input().strip().lower()
+#Class method
+class Student:
+    college = "CBIT"
 
-price = prem
+    @classmethod
+    def show_college(cls):
+        print(cls.college)
 
-# Age factor
-if age < 25:
-    price = price + (price * 0.20)
-elif 25 <= age <= 50:
-    price = price
-else:
-    price = price + (price * 0.15)
+Student.show_college()
 
-# Health score factor
-if score >= 80:
-    price = price - (price * 0.10)
-elif 60 <= score <= 79:
-    price = price
-else:
-    price = price + (price * 0.20)
 
-# Vehicle type factor
-if v_type == "sports":
-    price = price + (price * 0.30)
-elif v_type == "suv":
-    price = price + (price * 0.15)
-elif v_type == "sedan":
-    price = price
+#Static Method
+class Calculator:
 
-print(price)
-    
-    
+    @staticmethod
+    def add(a, b):
+        return a + b
+
+print(Calculator.add(5,10))
+
+
+#Constructor
+class Student:
+    def __init__(self):
+        print("Object created")
+
+s1 = Student()
+
+#Non Parameterized constructor
+class Student:
+    def __init__(self):
+        self.name = "Siddhartha"
+
+s1 = Student()
+print(s1.name)
+
+
+#Parameterized constructor
+class Student:
+    def __init__(self, name, age, marks):
+        self.name = name
+        self.age = age
+        self.marks = marks
+
+s1 = Student("Siddhartha", 23, 90)
+
+print(s1.name)
+print(s1.age)
+print(s1.marks)
+
+
