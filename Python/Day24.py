@@ -61,7 +61,6 @@ class Student:
         self.marks = marks
 
 s1 = Student("Siddhartha", 23, 90)
-
 print(s1.name)
 print(s1.age)
 print(s1.marks)
