@@ -206,7 +206,6 @@ Web Development
 Examples:
 ● Django
 ● Flask
-● FastAPI
 Used for:
 ● Websites
 ● APIs
@@ -259,7 +258,6 @@ Libraries:
 Examples:
 ● Calculator
 ● Billing Software
-● Management Systems
 
 10. Memory Allocation: Procedural vs
 OOP
